@@ -15,18 +15,18 @@ An authenticated user with **Author** privileges (or lower if they can publish p
 
 1. Create a flipbook with a PDF (set to draft).
 
-   ![](SC 2026-07-16 110752.png)
+<img src="SC 2026-07-16 110752.png">
 
 2. Embed it in a published post/page.
 
-   ![](SC 2026-07-16 110824.png)
+<img src="SC 2026-07-16 110824.png">
 
 3. Unauthenticated visitor accesses the page → PDF direct link is exposed (e.g. http://wpflipa.test/wp-content/uploads/2026/07/css1-1.pdf).
 
-   ![](SC 2026-07-16 111033.png)
+<img src="SC 2026-07-16 111033.png">
 
 4. The PDF can be downloaded directly without authentication.
 
-   ![](SC 2026-07-16 111051.png)
+<img src="SC 2026-07-16 111051.png">
 
 **Impact:** Private, draft, or other users' confidential PDFs can be accessed and downloaded by anyone.
